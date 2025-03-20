@@ -1,0 +1,43 @@
+.home{
+
+    display: flex;
+    justify-content: center;
+}
+.container_home{
+   
+    width: 1280px;
+    display: flex;
+}
+.container_home .home_text{
+    
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container_home h2{
+    font-size: 19px;
+    font-weight: 600;
+}
+.container_home h1{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    
+}
+.btn_curriculo{
+    width: 22%;
+    height: 15%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.home_img{
+    
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}

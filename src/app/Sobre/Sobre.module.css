@@ -1,0 +1,28 @@
+.sobreMim{
+   
+    display: flex;
+    justify-content: center;
+}
+.container_sobreMim{
+   
+    width: 1280px;
+    display: flex;
+    height: 80vh;
+    
+}
+.textSobreMim{
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+.container_img_sobremim{
+    width: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

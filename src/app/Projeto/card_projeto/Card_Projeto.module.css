@@ -1,0 +1,28 @@
+.card_projeto{
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.233);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+}
+.container_img{
+    border: 2px solid black;
+    height: 250px;
+    width: 240px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn_projeto{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btn_link{
+    text-decoration: none;
+    color: black;
+}
