@@ -9,9 +9,9 @@ export default function cardProjeto(props){
                 <div className={styles.container_img}>
                     <Image src={props.image}/>
                 </div>
-                <button  className={styles.btn_projeto}>
+                
                     <Link className={styles.btn_link} href={"#"}>{props.btn_projeto}</Link>
-                </button>
+                
             </div>
         
     )

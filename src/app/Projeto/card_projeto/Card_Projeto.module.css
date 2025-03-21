@@ -8,6 +8,10 @@
     border-radius: 15px;
     align-items: center;
 }
+.card_projeto p{
+    font-size: 22px;
+    font-weight: bold;
+}
 .container_img{
     border: 2px solid black;
     height: 250px;
@@ -16,13 +20,17 @@
     display: flex;
     justify-content: center;
 }
-.btn_projeto{
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-}
+
 .btn_link{
     text-decoration: none;
     color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00C86F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }

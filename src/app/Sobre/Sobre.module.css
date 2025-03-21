@@ -19,6 +19,10 @@
     justify-content: center;
     line-height: 30px;
 }
+.textSobreMim h3{
+    font-size: 2em;
+    padding: 10px 0;
+}
 .container_img_sobremim{
     width: 50%;
   

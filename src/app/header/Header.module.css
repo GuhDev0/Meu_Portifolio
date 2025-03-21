@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: center;
-        
+   
 }
 .container_header{
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.233);
@@ -13,19 +13,22 @@ margin: 30px 0;
   justify-content: space-between;
   align-items: center;
   border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.504);
+  
 }
 .container_header .container_title .link_title{
  font-size: 2em;
  text-decoration: none;
- color: black;
  font-weight: 700;
+ color: white;
  
 }
 .nav_list{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    list-style: none;
+    
 }
 .nav_list ul{
     display: flex;
@@ -35,8 +38,8 @@ margin: 30px 0;
 }
 .nav_list .link{
     font-size: 22px;
-    color: black;
+    font-weight: bold;
     text-decoration: none;
-    
+    color: white;
 }
 

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Home.module.css';
 import Image from 'next/image'
 export default function PageHome(){
@@ -14,9 +15,11 @@ export default function PageHome(){
                 <p>
                 com paixão por criar soluções completas, do front-end ao <br /> back-end, sempre buscando inovação e qualidade
                 </p>
-                <button className={styles.btn_curriculo}>
-                Meu Curriculo
-            </button>
+               -
+                <Link className={styles.btn_curriculo} href={'https://drive.google.com/file/d/1eOn0_nj5tgz9curFGT_cwsY8Vu28RWjc/view'} target='_blank'>
+               Curriculo
+                </Link>
+                
             </div>
         <div className={styles.home_img}>
             <p>
