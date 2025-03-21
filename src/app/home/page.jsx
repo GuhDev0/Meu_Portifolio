@@ -16,7 +16,7 @@ export default function PageHome(){
                 com paixão por criar soluções completas, do front-end ao <br /> back-end, sempre buscando inovação e qualidade
                 </p>
                -
-                <Link className={styles.btn_curriculo} href={'https://drive.google.com/file/d/1eOn0_nj5tgz9curFGT_cwsY8Vu28RWjc/view'} target='_blank'>
+                <Link className={styles.btn_curriculo} href={'https://drive.google.com/file/d/1BO-nD_hO1ZZdjjhn-ZEnoIZDZ0_RCX4F/view'} target='_blank'>
                Curriculo
                 </Link>
                 
@@ -24,6 +24,7 @@ export default function PageHome(){
         <div className={styles.home_img}>
             
         </div>
+        <Image className={styles.img_tecnologia} src={"/tecnologia.webp"} width={500} height={500} />
         </div>
         
     </div>
