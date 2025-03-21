@@ -22,9 +22,7 @@ export default function PageHome(){
                 
             </div>
         <div className={styles.home_img}>
-            <p>
-                Imagem aqui
-            </p>
+            
         </div>
         </div>
         

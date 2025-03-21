@@ -6,9 +6,6 @@ export default function sobre() {
     return (
         <div className={styles.sobreMim}>
             <div className={styles.container_sobreMim}>
-                <div className={styles.container_img_sobremim}>
-                    <p>image aqui</p>
-                </div>
                 <div className={styles.textSobreMim}>
                     <h3>Sobre Mim</h3>
                     <p>

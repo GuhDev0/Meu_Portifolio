@@ -12,8 +12,7 @@
    font-weight: bold;
     
 }
-.container_projeto{
-    
+.container_projeto{ 
     width: 1280px;
     display: flex;
     gap: 100px;

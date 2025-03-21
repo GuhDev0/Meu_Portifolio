@@ -15,22 +15,22 @@ export default function Header(){
                                 Home
                             </Link>
                     </li>
-                        <div>
+                        <li>
                             <Link   className={sytles.link} href='/Sobre'>
                                 Sobre
                             </Link>
-                        </div>
+                        </li>
                         
-                        <div>
+                        <li>
                             <Link href='/Projeto' className={sytles.link} >
                                 Projetos
                             </Link>
-                        </div>
-                        <div>
+                        </li>
+                        <li>
                             <Link className={sytles.link} href='/contato'>
                                 Contato
                             </Link>
-                        </div>
+                        </li>
                     </ul>
                 </nav>
                 <div className={sytles.darkMode}>
