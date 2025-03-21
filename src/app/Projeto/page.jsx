@@ -1,5 +1,5 @@
 import styles from './Projeto.module.css';
-import CardProjeto from './card_projeto'
+import CardProjeto from './card_projeto/CardProjeto'
 export default function Projeto(){
     return(
         <div className={styles.projeto}>
@@ -10,10 +10,13 @@ export default function Projeto(){
                 <CardProjeto 
                  title={'Titulo'}
                  btn_projeto={"Acessar"}
+                 
                 />
                 <CardProjeto 
                 title={'Titulo'}
                 btn_projeto={"Acessar"}
+                image={'/ImagemProjeto.png' }
+                 link={'https://hospedagem-de-site.netlify.app/#informacoes'}       
                 />
                 
                 <CardProjeto 
