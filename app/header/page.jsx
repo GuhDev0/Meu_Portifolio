@@ -33,9 +33,6 @@ export default function Header(){
                         </li>
                     </ul>
                 </nav>
-                <div className={sytles.darkMode}>
-                    darkMorde
-                </div>
             </div>
         </header>
     )

@@ -24,7 +24,7 @@ export default function PageHome(){
         <div className={styles.home_img}>
             
         </div>
-        <Image className={styles.img_tecnologia} src={"/tecnologia.webp"} width={500} height={500} />
+        <Image className={styles.img_tecnologia} src={"/imagem_SemFundo.png"} width={500} height={500} />
         </div>
         
     </div>
