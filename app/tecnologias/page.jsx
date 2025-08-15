@@ -17,6 +17,8 @@ return(
             img={'/JavaScript-logo.png'}/>
             <Card
             img={'/react-icon.png'}/>
+            <Card
+            img={'/Java_Programmer_Computer_Programming_Logo_PNG-removebg-preview.png'}/>
         </div>
     </div>
 )

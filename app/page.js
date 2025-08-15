@@ -10,8 +10,8 @@ export default function Home() {
     <div className={styles.homme}>
       <PageHome />
       <SobreMim />
-      <Tecnologia/>
       <Projeto />
+      <Tecnologia/> 
       <Contato />
     </div>
       

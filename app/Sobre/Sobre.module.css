@@ -35,7 +35,11 @@
     text-align: center;
    padding: 30px 0;
    font-size: 2.5em;
+   
    font-weight: bold;
+}
+.textSobreMim  p {
+    padding: 50px 0;
 }
 .container_img_sobremim{
     width: 50%;

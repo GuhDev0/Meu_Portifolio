@@ -13,7 +13,7 @@ export default function PageHome(){
                 Eu Sou Gustavo Costa, <br /> desenvolvedor Back end. 
                 </h1>
                 <p>
-                com paixão por criar soluções completas,   <br /> back-end, sempre buscando inovação e qualidade
+                   <br /> Desenvolvedor back-end , com foco em boas práticas, código limpo e crescimento constante.
                 </p>
                
                 <Link className={styles.btn_curriculo} href={'https://drive.google.com/file/d/14uncjA5VcwAr9BIxVrYCnlMUPDm4G0IB/view'} target='_blank'>
