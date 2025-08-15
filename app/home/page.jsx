@@ -10,13 +10,13 @@ export default function PageHome(){
                     Bem-vindo ao meu site
                 </h2>
                 <h1 className={styles.sobre_text}>
-                Eu Sou Gustavo Costa, <br /> desenvolvedor full-stack. 
+                Eu Sou Gustavo Costa, <br /> desenvolvedor Back end. 
                 </h1>
                 <p>
-                com paixão por criar soluções completas, do front-end ao <br /> back-end, sempre buscando inovação e qualidade
+                com paixão por criar soluções completas,   <br /> back-end, sempre buscando inovação e qualidade
                 </p>
-               -
-                <Link className={styles.btn_curriculo} href={'https://drive.google.com/file/d/1BO-nD_hO1ZZdjjhn-ZEnoIZDZ0_RCX4F/view'} target='_blank'>
+               
+                <Link className={styles.btn_curriculo} href={'https://drive.google.com/file/d/14uncjA5VcwAr9BIxVrYCnlMUPDm4G0IB/view'} target='_blank'>
                Curriculo
                 </Link>
                 

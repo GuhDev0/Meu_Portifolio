@@ -4,7 +4,7 @@ export default function Card(props){
     return(
         <div className={styles.card}>
             <div className={styles.container_img}>
-                Imagem aqui
+                
             </div>
             <div>
                 <p></p>
