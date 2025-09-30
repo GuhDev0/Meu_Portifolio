@@ -24,19 +24,20 @@ export default function CardProjeto(props) {
         ))}
       </div>
 <div className={styles.container_butoes}>
-         {props.link ? (
+         {props.link ?  (
         <Link className={"btn btn-primary"} href={props.link} target="_blank">
           {props.btn_projeto}
         </Link>
+        
       ) : (
         <p>Link não disponível</p>
       )}
       {props.linkDois ? (
         <Link className={"btn btn-primary"} href={props.link} target="_blank">
-          {props.btn_projeto}
+          {props.btn_codigo}
         </Link>
       ) : (
-        <p></p>
+        <p>Link não disponível</p>
       )}
 </div>
      

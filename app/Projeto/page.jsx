@@ -12,6 +12,7 @@ export default function Projeto() {
                 <CardProjeto
                     title={'AlfaTech'}
                     btn_projeto={"Ver Projeto"}
+                    btn_codigo={"Ver Codigo"}
                     image={"/ImagemProjeto.png"}
                     descricao={`Site institucional responsivo para empresa fictícia de hospedagem, com apresentação de planos, tabela de preços e informações de contato`}
                     listIcon={[<FaHtml5 key="html" />,<SiCsswizardry  key="css"/>]}
