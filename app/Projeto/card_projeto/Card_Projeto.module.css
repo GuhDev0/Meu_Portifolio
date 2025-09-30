@@ -1,6 +1,6 @@
 .card_projeto {
-    width: 320px; /* um pouco maior para melhor visualização */
-    height: auto; /* altura ajusta de acordo com o conteúdo */
+    width: 320px; 
+    height: 500px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* distribui título, imagem e botão */
@@ -9,27 +9,56 @@
     border-radius: 15px;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #191f2a;
+    border: 1px solid #dedede1b;
      
 }
 
-
+.icon_tech{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #191f2a;
+    justify-content: center;
+}
+.container_icon_tech{
+    width: 100%;
+    background-color: #191f2a;
+    margin: 10px 0;
+    display: flex ;
+    align-items: center;
+    justify-content: baseline;
+    padding: 0 30px;
+    gap: 20px;
+}
 .card_projeto:hover {
     transform: scale(1.05); /* efeito mais suave */
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* sombra mais evidente no hover */
+}
+.container_butoes{
+    display: flex;
+    width: 100%;
+    gap: 20px;    
+    background-color: #191f2a;
 }
 
 
 .card_projeto p {
     margin: 10px 0;
+    background-color: #191f2a;
     text-align: center;
     font-weight: 500;
 }
 .container_img {
-    width: 237px;   
-    height: 242px;  
+    width: 100%;   
+    height: 300px;  
     border-radius: 15px; 
     overflow: hidden; 
     position: relative; 
 }
 
+.btn_link{
+    background-color: red;
+    
+}
