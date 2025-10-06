@@ -1,48 +1,192 @@
-.contato h2{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2.5em;
+/* ----------- SEÇÃO CONTATO ------------ */
+.contato {
+  padding: 60px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: #0f131a;
 }
-.contato{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    margin: 80px 0 0 0;
+
+.container_contato {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  background-color: #0f131a;
+  flex-direction: column;
+  gap: 30px;
 }
-.container_contato{
-    width: 1280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.contato_title {
+  background-color: #0f131a;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text_Contato {
+  
+  text-align: center;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* ----------- CONTEÚDO PRINCIPAL ------------ */
+.containerCardContato {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.containerCardContato .cardForm{
+    background-color: #202941;
+}
+
+/* ----------- BLOCO ESQUERDO ------------ */
+.InformaçõesDeContato {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.InformaçõesDeContato h3,
+.InformaçõesDeContato p {
+  margin: 0;
+  color: #ccc;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #202941;
+  border: 1px solid #2e3b5a;
+  border-radius: 12px;
+  padding: 15px 20px;
+  transition: border-color 0.3s ease;
+}
+.text_Contato{
+  color: #b1b1b1ff;
+}
+
+
+.contactContainer:hover { 
+  border-color: #3f4d72;
+}
+
+.contactContainer i {
+  font-size: 1.5rem;
+  color: #6c8ef5;
+}
+
+.informationEmail p,
+.informationPhone p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+   background-color: #202941;
+}
+
+/* ----------- REDES SOCIAIS ------------ */
+.container_icon {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202941;
+  border: 1px solid #2e3b5a;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #2a3652;
+}
+
+.icon {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+/* ----------- FORMULÁRIO ------------ */
+.CardEnviarContato {
+  flex: 1;
+  max-width: 450px;
+  width: 100%;
+  border: 1px solid #2e3b5a;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #202941;
+
+}
+
+.CardEnviarContato form {
+  display: flex;
+   background-color: #202941;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CardEnviarContato label {
+  font-size: 0.9rem;
+  color: #ccc;
+   background-color: #202941;
+  
+}
+
+.CardEnviarContato input,
+.CardEnviarContato textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #2e3b5a;
+  background-color: #131822;
+  color: #fff;
+  outline: none;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+.CardEnviarContato input:focus,
+.CardEnviarContato textarea:focus {
+  border-color: #6c8ef5;
+}
+
+.CardEnviarContato button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #6c8ef5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CardEnviarContato button:hover {
+  background-color: #5875d8;
+}
+
+/* ----------- RESPONSIVO ------------ */
+@media (max-width: 900px) {
+  .containerCardContato {
     flex-direction: column;
-}
-.container_contato h2{
-    font-weight: bold;
-}
-.container_card{
-    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.233);
-    width: 50%;
-    height: 300px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0 30px;
-}
-.container_icon{
-    display: flex;
-    gap: 20px;
-    
-}
-.link{
-    width: 30px;
-    height: 30px;
-}
-.link .icon{
-    width: 100%;
-    height: 100%;
-}
-.container_card h3{
-    font-weight: 700;
+  }
+
+  .CardEnviarContato {
+    order: 2;
+  }
+
+  .InformaçõesDeContato {
+    order: 1;
+  }
 }

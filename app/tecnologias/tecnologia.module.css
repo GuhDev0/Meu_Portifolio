@@ -8,7 +8,7 @@
 
 .container_card {
     max-width: 1280px;
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap; 
     margin: 0 auto;
