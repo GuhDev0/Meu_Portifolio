@@ -26,7 +26,7 @@ export default function Projeto() {
                     image={"/gestorAppPrint.png"}
                     descricao={`GestorBarberApp controle completo da sua barbearia. Gerencie clientes, colaboradores, serviços e agendamentos de forma prática e organizada.`}
                     listIcon={[<FaHtml5 key="html" />,<SiCsswizardry  key="css"/>]}
-                    link={'https://app-barber-rl44tn3qy-gustavo-costa-araujos-projects-4ec14e5e.vercel.app/'}
+                    link={'https://app-barber-msaq33a86-gustavo-costa-araujos-projects-4ec14e5e.vercel.app/'}
                     linkDois={'https://github.com/GuhDev0/AppBarber'}
                 />
 
