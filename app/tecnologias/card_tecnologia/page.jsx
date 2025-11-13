@@ -4,7 +4,7 @@ import styles from "./card.module.css";
 export default function CardTecnologia({ img, titleTecnologia, porcentagem }) {
   return (
     <div className={styles.card}>
-      <Image src={img} width={50} height={50} alt={titleTecnologia} />
+      <Image  className={styles.img_ICON} src={img} width={50} height={50} alt={titleTecnologia} />
       <p className={styles.title}>{titleTecnologia}</p>
 
       <div className={styles.progressBar}>

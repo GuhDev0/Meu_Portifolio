@@ -11,7 +11,7 @@ export default function CardProjeto(props) {
       <div className={styles.container_img}>
         <Image src={props.image} fill style={{ objectFit: 'cover' }} alt={props.title} />
       </div>
-      <p className="fs-5">{props.title}</p>
+      <p className={styles.title}>{props.title}</p>
       <p>
         {props.descricao}
       </p>
@@ -33,7 +33,7 @@ export default function CardProjeto(props) {
         <p>Link não disponível</p>
       )}
       {props.linkDois ? (
-        <Link className={"btn btn-primary"} href={props.link} target="_blank">
+        <Link className={"btn btn-primary"} href={props.linkDois} target="_blank">
           {props.btn_codigo}
         </Link>
       ) : (

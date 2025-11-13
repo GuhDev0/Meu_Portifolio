@@ -16,17 +16,15 @@ export default function PageHome() {
     return (
         <div className='h-130 position-relative'>
             <div className='text-center tex-lg '>
-                <h1 className=' fw-bold   ' style={{ fontSize: "5em" }}>Desenvolvedor de software <br /> Back / Front</h1>
+                <h1 className=' fw-bold   ' style={{ fontSize: "5em" }}>Desenvolvedor de software <br /> FullStack</h1>
                 <p className='fs-5  fw-bold  ' style={{ color: '#b1b1b1ff' }}>Construindo soluções web modernas e eficientes <br />com as melhores tecnologias</p>
 
                 <div className="flex justify-center items-center gap-6 mt-4">
-                    <button
-                        type="button"
-                        className="btn text-nowrap btn-lg fw-bold"
-                        style={{ backgroundColor: '#8E44AD', color: "white" }}
-                    >
-                        ver projetos
-                    </button>
+                   
+                        <Link href='/Projeto' className="btn text-nowrap btn-lg fw-bold" style={{ backgroundColor: '#8E44AD', color: "white" }}>
+                                Projetos
+                            </Link>
+                  
 
                     <div className="flex gap-4 text-2xl">
                         {socialLinks.map((item, index) => (
