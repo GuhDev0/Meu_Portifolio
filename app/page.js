@@ -8,7 +8,7 @@ import Tecnologia from "./tecnologias/page";
 export default function Home() {
   return (
     <div className={styles.homme}>
-      <PageHome />
+
       <SobreMim />
       <Projeto />
       <Tecnologia/> 

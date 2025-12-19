@@ -1,45 +1,51 @@
 .header {
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
+/* ===== Container principal ===== */
 .container_header {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.233);
-    margin: 30px 0;
-    width: 1280px;
-    height: 15vh;
-    padding: 0 30px;
+    margin: 30px 16px;
+    max-width: 1280px;     /* 🔑 não trava mais */
+    width: 100%;
+    min-height: 80px;      /* melhor que vh */
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
     background-color: #0c131d;
-    
-
 }
-
 
 .container_header .container_title .link_title {
     font-size: 2em;
     text-decoration: none;
-    font-weight: 700;       
+    font-weight: 700;
+    color: white;
 }
 
+/* ===== Navegação ===== */
 .nav_list {
     display: flex;
     align-items: center;
-    justify-content: center;
-    list-style: none;
-
 }
 
 .nav_list ul {
     display: flex;
     gap: 40px;
-    text-align: center;
-    background-color: #0c131d;
+    padding: 0;
+    margin: 0;
+}
 
+.nav_list li {
+    list-style: none;
+    transition: 0.3s ease;
+}
+
+.nav_list li:hover {
+    transform: scale(1.1);
 }
 
 .nav_list .link {
@@ -47,12 +53,43 @@
     font-weight: bold;
     text-decoration: none;
     color: white;
-    background-color: #0c131d;
 }
-.nav_list li{
-    list-style: none;
-    transition: 0.3s ease;
-}
-.nav_list li:hover{
-    transform: scale(1.1);
+
+/* ========================= */
+/* 📱 MOBILE */
+/* ========================= */
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_header {
+        width: 100%;              /* 🔑 ocupa toda a largura */
+        max-width: 100%;          /* 🔑 garante que não limite */
+        margin: 0 auto;           /* 🔑 mantém centralizado */
+        padding: 16px;            /* respiro nas laterais */
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+
+    }
+
+    .nav_list ul {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav_list .link {
+        font-size: 18px;
+    }
 }
